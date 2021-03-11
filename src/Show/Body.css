@@ -1,0 +1,58 @@
+.all{
+    display: flex;
+    margin: 32px;
+}
+.item_video{
+    display: block;
+    flex: 0.6;
+}
+.info_video{
+    display: flex;
+    align-items: center;
+    color: gray;
+    justify-content: space-between;
+}
+.channel{
+    display: flex;
+    flex: 0.36;
+    align-items: center;
+    color: #000;
+    justify-content: space-between;
+}
+.videos{
+    flex: 0.4;
+    flex-wrap: wrap;
+    margin: 14px;
+}
+.right{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.right:hover{
+    color: red;
+}
+.right>img{
+    width: 180px;
+    height: 100px;
+}
+.right_info{
+    display: flex;
+    margin-top: 2px;
+    padding-right: 5px;
+}
+.right_text{
+    margin-left: 3px;
+}
+.right_text>h5{
+    font-size: 14px;
+    margin: 2px;
+}
+.right_text>p{
+    font-size: 14px;
+    color: gray;
+    margin: 2px;
+}
+.right_avatar{
+    height: 30px !important;
+    width: 30px !important;
+}

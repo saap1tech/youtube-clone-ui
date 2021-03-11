@@ -1,0 +1,31 @@
+.up{
+    margin: 10px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.upload_form{
+    flex-wrap: wrap;
+}
+.file_input{
+    display: none;
+}
+.video_up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card_video{
+    width: 30%;
+    flex: 0.4;
+    height: 10vh;
+    background-color: rgb(111, 161, 204);
+    border-radius: 7px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 auto;
+}
+.progress_bar{
+    width: 60%;
+    height: 10vh;
+}

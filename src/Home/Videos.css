@@ -1,0 +1,43 @@
+.content{
+    flex: 0.8;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    padding-bottom: 0;
+}
+.front{
+    width: 260px;
+    margin-bottom: 40px;
+}
+.front:hover{
+    color: red;
+}
+.front>img{
+    width: 240px;
+    height: 140px;
+}
+.info{
+    display: flex;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+.text{
+    margin-left: 10px;
+}
+.text>h4{
+    font-size: 14px;
+    margin: 2px auto;
+}
+.text>p{
+    font-size: 14px;
+    color: gray;
+    margin: 2px auto;
+}
+.info__avatar{
+    height: 30px !important;
+    width: 30px !important;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
