@@ -11,7 +11,6 @@ const Upload = () => {
     const onChangeVideo = (e) => {
         setVideoUp(e.target.files[0]);
         setVideoName(e.target.files[0].name);
-        console.log('Change video');
     }
 
     const [imgUp, setImgUp] = useState('');
@@ -20,7 +19,6 @@ const Upload = () => {
     const onChangeImg = (e) => {
         setImgUp(e.target.files[0]);
         setImgName(e.target.files[0].name);
-        console.log('Change Img');
     }
 
     const [title, setTitle] = useState('');
